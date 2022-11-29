@@ -1,7 +1,11 @@
 /** @type {import('next').NextConfig} */
-module.exports = {
+const NextConfig = {
   reactStrictMode: true,
+}
+
+module.exports = {
   images: {
-    domains: ['links.papareact.com']
-  },
+  domains: ['links.papareact.com', 'www.ricburns.com', 'alfa-logistics-family.com', 'www.afrik21.africa']
+   
+  }
 }
